@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lapshopReactJs/static/css/main.83521e26.css",
-    "main.js": "/lapshopReactJs/static/js/main.76f0fd35.js",
+    "main.css": "/lapshopReactJs/static/css/main.13c616c3.css",
+    "main.js": "/lapshopReactJs/static/js/main.0a8a2de1.js",
     "static/js/453.7a1a1fac.chunk.js": "/lapshopReactJs/static/js/453.7a1a1fac.chunk.js",
     "static/media/wallpaper.png": "/lapshopReactJs/static/media/wallpaper.9cec6c5e289289278b9f.png",
     "static/media/lap1.png": "/lapshopReactJs/static/media/lap1.ed306fccbe82d273cb6d.png",
@@ -20,12 +20,12 @@
     "index.html": "/lapshopReactJs/index.html",
     "static/media/nav-icon1.svg": "/lapshopReactJs/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/lapshopReactJs/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.83521e26.css.map": "/lapshopReactJs/static/css/main.83521e26.css.map",
-    "main.76f0fd35.js.map": "/lapshopReactJs/static/js/main.76f0fd35.js.map",
+    "main.13c616c3.css.map": "/lapshopReactJs/static/css/main.13c616c3.css.map",
+    "main.0a8a2de1.js.map": "/lapshopReactJs/static/js/main.0a8a2de1.js.map",
     "453.7a1a1fac.chunk.js.map": "/lapshopReactJs/static/js/453.7a1a1fac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83521e26.css",
-    "static/js/main.76f0fd35.js"
+    "static/css/main.13c616c3.css",
+    "static/js/main.0a8a2de1.js"
   ]
 }
