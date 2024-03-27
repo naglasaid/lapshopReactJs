@@ -11,8 +11,8 @@ const Footer = ()=>{
          
        
 
-       <div className="footer pt-5 pb-3 text-center text-lg-start container-fluid">
-     <div className="">
+       <div className="footer pt-5 pb-3 text-center text-lg-start ">
+     <div className="container-fluid">
     <div className="footer">
       <div className="container fotter-content">
        <div className="row">
