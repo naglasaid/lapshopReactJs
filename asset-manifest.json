@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/lapshopReactJs/static/css/main.83521e26.css",
+    "main.js": "/lapshopReactJs/static/js/main.3fc9e9a4.js",
+    "static/js/453.7a1a1fac.chunk.js": "/lapshopReactJs/static/js/453.7a1a1fac.chunk.js",
+    "static/media/wallpaper.png": "/lapshopReactJs/static/media/wallpaper.9cec6c5e289289278b9f.png",
+    "static/media/lap1.png": "/lapshopReactJs/static/media/lap1.ed306fccbe82d273cb6d.png",
+    "static/media/lap6.png": "/lapshopReactJs/static/media/lap6.63b615e53eff9d520ac9.png",
+    "static/media/lap8.png": "/lapshopReactJs/static/media/lap8.100620c7a874e159515e.png",
+    "static/media/lap5.png": "/lapshopReactJs/static/media/lap5.9d37e10b35511df4190a.png",
+    "static/media/lap7.png": "/lapshopReactJs/static/media/lap7.f00e22a25c1538dded1d.png",
+    "static/media/lap9.png": "/lapshopReactJs/static/media/lap9.936071cb082557725f0b.png",
+    "static/media/lap10.png": "/lapshopReactJs/static/media/lap10.acb2f8849796419c1053.png",
+    "static/media/lap2.png": "/lapshopReactJs/static/media/lap2.d34925afacf46e3a8fb2.png",
+    "static/media/lap4.png": "/lapshopReactJs/static/media/lap4.196f29e882ba95a68a26.png",
+    "static/media/lap3.png": "/lapshopReactJs/static/media/lap3.3a93907e3e3ac0439c02.png",
+    "static/media/background.jpg": "/lapshopReactJs/static/media/background.d2551f94c3772860b471.jpg",
+    "static/media/remove-icon.png": "/lapshopReactJs/static/media/remove-icon.85673c0f37123d99a502.png",
+    "static/media/nav-icon3.svg": "/lapshopReactJs/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/lapshopReactJs/index.html",
+    "static/media/nav-icon1.svg": "/lapshopReactJs/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/lapshopReactJs/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.83521e26.css.map": "/lapshopReactJs/static/css/main.83521e26.css.map",
+    "main.3fc9e9a4.js.map": "/lapshopReactJs/static/js/main.3fc9e9a4.js.map",
+    "453.7a1a1fac.chunk.js.map": "/lapshopReactJs/static/js/453.7a1a1fac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83521e26.css",
+    "static/js/main.3fc9e9a4.js"
+  ]
+}
