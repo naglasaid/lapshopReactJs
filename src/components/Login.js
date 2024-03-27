@@ -23,7 +23,7 @@ const handleLogin = (e) =>{
     
     localStorage.setItem("loggedin",true)
     localStorage.setItem("naglaa",true)
-    navigate("/")
+    navigate("/home")
     // window.location="/"
   } else{
     alert("Wrong UserName or Password")
