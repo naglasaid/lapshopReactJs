@@ -10,7 +10,7 @@ import login from '../assets/img/login.jpg'
 
 
 const Login = ()=>{
-  // const navigate= useNavigate();
+  const navigate= useNavigate();
   const [input,setInput] = useState({
     name:"",
     password:""
@@ -23,8 +23,8 @@ const handleLogin = (e) =>{
     
     localStorage.setItem("loggedin",true)
     localStorage.setItem("naglaa",true)
-    // navigate("/")
-    window.location="/"
+    navigate("/")
+    // window.location="/"
   } else{
     alert("Wrong UserName or Password")
   }
