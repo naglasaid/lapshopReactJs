@@ -8,7 +8,7 @@ import signup from '../assets/img/signup.png'
 
 
 const Register = ()=>{
-// const navigate= useNavigate();
+const navigate= useNavigate();
 const [input,setInput] = useState({
   name:"",
   email:"",
@@ -20,8 +20,8 @@ const [input,setInput] = useState({
 const handleSubmit=(e)=>{
   e.preventDefault();
   localStorage.setItem("user",JSON.stringify(input))
-  // navigate("/login")
-  window.location="/login"
+  navigate("/login")
+  // window.location="/login"
 }
 
 
