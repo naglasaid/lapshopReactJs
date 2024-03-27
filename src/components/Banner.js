@@ -1,5 +1,5 @@
 import React,{useContext, useState} from 'react';
-// import {useNavigate} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 import {Link} from "react-router-dom"
 import carticon from "../assets/img/cart.png"
 import favicon from "../assets/img/fav.png"
@@ -22,7 +22,7 @@ const naglaa = JSON.parse(localStorage.getItem("naglaa"));
 const Banner = ()=>{
 
 
-    // const navigate= useNavigate();
+    const navigate= useNavigate();
     // const [isvisible,setIsvisible]= useState("d-none")
 
     const userName = JSON.parse(localStorage.getItem("user"))
@@ -41,8 +41,8 @@ const Banner = ()=>{
     localStorage.removeItem("loggedin")
     localStorage.setItem("naglaa",false)
    
-    // navigate("/login")
-    window.location="/login"
+    navigate("/login")
+    // window.location="/login"
 }
 
     return(
