@@ -53,7 +53,7 @@ const Banner = ()=>{
         
        <div id="userdiv"  style={{display:'none'}}> Welcome</div>
        {/* <div id="userdiv" className={isvisible}> Welcome {userName.name}</div> */}
-        <div className='fs-5'>Enjoy<span> 10% </span> Discount on All Products</div>
+        <div className='fs-6'>Enjoy<span> 10% </span> Discount on All Products</div>
         
 
         
