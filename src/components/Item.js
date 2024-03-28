@@ -5,21 +5,23 @@ const naglaa = JSON.parse(localStorage.getItem("naglaa"));
 
     
 
-     let buttonstyle={}
+   
+    
+
+const Item=(props)=>{
+
+
+    const {addToCart,addToFav} = useContext(ShopContext)
+    let buttonstyle={}
     if (naglaa){
         buttonstyle= {
             display: "block"
         }}
      else {
         buttonstyle= {
-            display: "none"
+            display: "block"
         }
      }
-    
-
-const Item=(props)=>{
-    const {addToCart,addToFav} = useContext(ShopContext)
-    
     
     return(
      

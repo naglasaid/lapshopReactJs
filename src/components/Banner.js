@@ -25,7 +25,8 @@ const Banner = ()=>{
     const navigate= useNavigate();
     // const [isvisible,setIsvisible]= useState("d-none")
 
-    const userName = JSON.parse(localStorage.getItem("user"))
+    // const userName = JSON.parse(localStorage.getItem("user"))
+
  const {getTotalCartItems,getTotalFavItems} =useContext(ShopContext)
     
 //    if(userName){
@@ -52,7 +53,7 @@ const Banner = ()=>{
         
        <div id="userdiv"  style={{display:'none'}}> Welcome</div>
        {/* <div id="userdiv" className={isvisible}> Welcome {userName.name}</div> */}
-        <div className='offerdiv'>Enjoy<span> 10% </span> Discount on All Products</div>
+        <div className='offerdiv fs-5'>Enjoy<span> 10% </span> Discount on All Products</div>
         
 
         

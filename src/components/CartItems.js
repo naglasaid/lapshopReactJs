@@ -27,7 +27,7 @@ if (cartItems[e.id]>0)
    return <div className="">
    <div className="cartitems-format-main">
    <img src={e.image} alt="" className="carticon-product-icon"/>
-   <p>{e.name}</p>
+   <p className="carticon-product-name">{e.name}</p>
    <p>L.E {e.price}</p>
    <button className="cartitems-quantity">{cartItems[e.id]}</button>
    <p>L.E {((e.price) * (cartItems[e.id]))}</p>

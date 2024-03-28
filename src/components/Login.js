@@ -19,16 +19,27 @@ const Login = ()=>{
 const handleLogin = (e) =>{
   e.preventDefault();
   const loggeduser = JSON.parse(localStorage.getItem("user"));
-  if(input.name === loggeduser.name && input.password === loggeduser.password){
-    
-    localStorage.setItem("loggedin",true)
-    localStorage.setItem("naglaa",true)
-    navigate("/home")
-    // window.location="/"
-  } else{
-    alert("Wrong UserName or Password")
+
+  if(input.name==="" || input.password === ""){
+    alert("Please Enter Your Credentials")
+} 
+  else{
+    if(input.name === loggeduser.name && input.password === loggeduser.password){
+  
+      localStorage.setItem("loggedin",true)
+      localStorage.setItem("naglaa",true)
+      navigate("/")
+      // window.location="/"
+  
+  
+    } else{
+      alert("Wrong UserName or Password")
+      
+    }
   }
-}
+  }
+
+  
 
 
     return(

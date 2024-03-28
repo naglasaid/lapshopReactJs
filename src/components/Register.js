@@ -19,10 +19,42 @@ const [input,setInput] = useState({
 
 const handleSubmit=(e)=>{
   e.preventDefault();
-  localStorage.setItem("user",JSON.stringify(input))
-  navigate("/login")
-  // window.location="/login"
+  if(input.name === "" || input.email === "" || input.password === ""){
+    alert("Please Enter Credentials")
+    
 }
+else{
+  localStorage.setItem("user",JSON.stringify(input))
+
+  setTimeout (()=> {
+            
+    navigate("/login")
+    // window.location="/login"
+},1500)
+ 
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

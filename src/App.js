@@ -15,14 +15,14 @@ import Footer from './components/Footer'
 import Cart from './components/Cart';
 //import ProtectedRoutes from './Services/ProtectedRoutes'
 
-// import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
-import { HashRouter,Routes,Route } from 'react-router-dom';
+// import { HashRouter,Routes,Route } from 'react-router-dom';
 function App() {
   return (
     <div>
        
-        <HashRouter>
+        <BrowserRouter>
         <Header/>
         
         
@@ -46,7 +46,7 @@ function App() {
 
         </Routes>
         <Footer/>
-        </HashRouter>
+        </BrowserRouter>
     
     </div>
   );
