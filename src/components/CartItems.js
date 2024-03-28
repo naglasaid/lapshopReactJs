@@ -9,7 +9,7 @@ const {getTotalCartAmount,data_product,cartItems,removeFromCart} = useContext(Sh
 
 return(
       <div className="cartitems">
-      <div className="cartitems-format-main">
+      {/* <div className="cartitems-format-main">
 
      <p>Products</p>
      <p>Title</p>
@@ -17,14 +17,14 @@ return(
      <p>Quantity</p>
      <p>Total</p>
      <p>Remove</p>
-     </div>
+     </div> */}
 
 
 <hr/>
 {data_product.map((e)=>{
 if (cartItems[e.id]>0)
 {
-   return <div className="">
+   return <div className="container">
    <div className="cartitems-format-main">
    <img src={e.image} alt="" className="carticon-product-icon"/>
    <p className="carticon-product-name">{e.name}</p>
@@ -41,7 +41,7 @@ if (cartItems[e.id]>0)
 return null;
 
 })}
-
+<div className="container">
 <div className="caritems-down">
 <div className="cartitems-total">
 <h1>Cart Totals</h1>
@@ -67,21 +67,12 @@ return null;
 
 </div>
 
-{/* <div className="cartitems-promocode">
-<p>If you have a promo code, Enter it here</p>
-
-<div className="cartitems-promobox">
-<input type="text" placeholder="promo code"/>
-<button>Submit</button>
-</div>
-
-</div> */}
 
 
 
 </div>
  </div>
-
+ </div>
 )
 }
 
